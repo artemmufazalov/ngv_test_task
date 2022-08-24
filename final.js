@@ -1,3 +1,5 @@
+
+
 class UserService {
 	_username;
 	_password;
@@ -42,7 +44,7 @@ class UserService {
 			}
 		};
 		xhr.onerror = function () {
-			callback('error', { error: 'Что-то пошло не так' });
+			callback('error', { error: 'Something went wrong' });
 		};
 
 		xhr.send();
