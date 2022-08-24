@@ -1,5 +1,3 @@
-
-
 class UserService {
 	_username;
 	_password;
